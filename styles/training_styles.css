@@ -1,0 +1,15 @@
+
+A:link { text-decoration: none; color: #000000; }
+A:visited { text-decoration: none; color: #00AAAA; }
+A:hover { text-decoration: underline; color: #000000; }
+A:active { text-decoration: underline; color: #0000FF; }
+
+div.c9 {text-align: center}
+span.c8 {color: #0000FF; font-family: Optimum; font-size: 175%; letter-spacing: 2pt}
+span.c7 {color: #0000FF; font-family: Optimum; font-size: 120%; letter-spacing: 0.5pt}
+table.c6 {border-collapse: collapse; background-color: rgb(245,245,245);}
+span.c5 {font-family: Optimum}
+span.c4 {padding-left: 20px; text-align: left; font-family: Optimum; font-size: 150%}
+h1.c3 {color: #0000A0}
+p.c2 {text-align: center}
+span.c1 {color: #FF00FF}

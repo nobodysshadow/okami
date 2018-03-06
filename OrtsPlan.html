@@ -1,0 +1,89 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xml:lang="de-ch" xmlns="http://www.w3.org/1999/xhtml" lang="de-ch"><head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-2;" />
+<title>Lageplan Okami Dojo Lenzburg</title>
+    <style type="text/css">
+      A:link { text-decoration: none; color: #000000; }
+      A:visited { text-decoration: none; color: #00AAAA; }
+      A:hover { text-decoration: underline; color: #000000; }
+      A:active { text-decoration: underline; color: #0000FF; }
+
+      div.c3 {text-align: center}
+      a.c2 {color:#0000FF;text-align:left}
+      h1.c1 {color: #0000A0}
+      #map-canvas {width: 630px; height: 450px;}
+    </style>
+    <script type="text/javascript"
+      src="https://maps.googleapis.com/maps/api/js?sensor=false">
+    </script>
+    <script type="text/javascript">
+      function initialize() {
+        var myLatLng = new google.maps.LatLng(47.3870691, 8.1800585);
+        var mapCanvas = document.getElementById("map-canvas");
+        var mapOptions = {
+          center: myLatLng,
+          zoom: 18,
+          mapTypeId: google.maps.MapTypeId.HYBRID
+        };
+        var myMap = new google.maps.Map(mapCanvas, mapOptions);
+        var myMarker = new google.maps.Marker({position: myLatLng, map: myMap, title: 'OKAMI Dojo Kleiner'});
+        var contentString = '<h3>OKAMI Dojo Kleiner</h3>'+
+              '<p>Rathausg&auml;ssli 14<br>5600 Lenzburg<br>'+
+              'Tel. Dojo: 062 891 90 78<br>Tel. B&uuml;ro: 062 892 39 70</p>'+
+              '<p><a href="https://www.google.com/maps?q=Rathausg%C3%A4ssli+14,+Lenzburg,+Switzerland&ie=UTF8&sll=47.38709369999949,8.180047105376604&sspn=0.007882902488760715,0.020604032352982263&t=h&dg=opt&hnear=Rathausg%C3%A4ssli+14,+5600+Lenzburg,+Aargau,+Switzerland&z=16">Anfahrtsberechnung mit Google</a></p>';
+        var infowindow = new google.maps.InfoWindow({content: contentString});
+        google.maps.event.addListener(myMarker, 'click', function() {
+          infowindow.open(myMap,myMarker);
+        });
+      }
+      google.maps.event.addDomListener(window, 'load', initialize);
+    </script>
+<meta name="description" content="Lageplan des Okami Dojo Lenzburg von Markus Kleiner" />
+<meta name="keywords" content="Aikido, Judo, Okami, Dojo, Lenzburg, Kleiner, Lageplan, Anfahrt" />
+<meta name="author" content="Günther Wasser, guenther.wasser@gmx.net" />
+<meta name="DC.Publisher" content="Markus Kleiner, markuskleiner@hispeed.ch" />
+<meta name="DC.Date" content="2013-03-24T18:00:00+02:00" />
+<meta name="DC.Language" content="de" />
+</head>
+<body>
+<div align="center">
+<center>
+<table border="0" cellpadding="0" cellspacing="0" width="900">
+<tbody>
+<tr>
+<td align="center" height="75" valign="middle" width="100"><img src="./pictures/ReiOka1.gif" alt="Figure" height="54" width="51" /></td>
+<td align="center" height="75" valign="middle" width="700"><img src="./pictures/Text.gif" alt="Aikido- und Judoschule Lenzburg" height="73" width="667" /></td>
+<td align="center" height="75" valign="middle" width="100"><img src="./pictures/ReiDoj1.gif" alt="Figure" height="54" width="51" /></td>
+</tr>
+<tr>
+<td colspan="3" align="center" valign="middle" height="50">
+<h1 class="c1"><em>Lageplan / Anfahrt</em></h1>
+</td>
+</tr>
+</tbody>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" width="900">
+<tbody>
+<tr>
+<td align="center" valign="middle" height="450" width="135"><a href="./TraiZeit.html">Trainingzeiten<br />
+<img src="./pictures/ZorriLi.gif" border="0" height="36" width="52" alt="Zorri Links" /><br />
+zurück</a></td>
+<td align="center" height="450" width="630">
+<table border="0" cellpadding="0" cellspacing="0">
+<tbody>
+<tr>
+<td><div id="map-canvas"/></td>
+</tr>
+</tbody>
+</table>
+</td>
+<td align="center" valign="middle" height="450" width="135"><a href="./Trainer.html">Trainer<br />
+<img src="./pictures/ZorriRe.gif" border="0" height="36" width="52" alt="Zorri Rechts" /><br />
+weiter</a></td>
+</tr>
+</tbody>
+</table>
+</center>
+</div>
+</body>
+</html>

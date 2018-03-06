@@ -1,0 +1,10 @@
+A:link { text-decoration: none; color: #000000; }
+A:visited { text-decoration: none; color: #00AAAA; }
+A:hover { text-decoration: underline; color: #000000; }
+A:active { text-decoration: underline; color: #0000FF; }
+
+div.c3 {text-align: center}
+a.c2 {color:#0000FF;text-align:left}
+h1.c1 {color: #0000A0}
+
+#map-canvas {width: 630px; height: 450px;}

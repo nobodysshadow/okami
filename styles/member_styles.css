@@ -1,0 +1,19 @@
+
+A:link { text-decoration: none; color: #000000; }
+A:visited { text-decoration: none; color: #00AAAA; }
+A:hover { text-decoration: underline; color: #000000; }
+A:active { text-decoration: underline; color: #0000FF; }
+
+span.c12 {font-size: 70%}
+span.c11 {color: #FF00FF; font-size: 150%}
+p.c10 {margin: auto; text-align: center}
+span.c9 {font-size: 80%}
+span.c8 {color: #FF0080; font-family: Arial}
+span.c7 {color: #0000FF}
+span.c6 {color: #FF00FF}
+span.c5 {color: #FFFFFF}
+span.c4 {color: #FF0080; font-size: 150%}
+div.c3 {text-align: center}
+span.c2 {color: #000000; font-size: 80%}
+span.c1 {color: #FF0000; font-size: 120%}
+span.Ferienname {padding-left: 10px; text-align: left;}

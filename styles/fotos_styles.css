@@ -1,0 +1,16 @@
+
+A:link { text-decoration: none; color: #000000; }
+A:visited { text-decoration: none; color: #00AAAA; }
+A:hover { text-decoration: underline; color: #000000; }
+A:active { text-decoration: underline; color: #0000FF; }
+
+table.c2 {text-align: center}
+td.c1 {text-align: center}
+
+div.c6 {text-align: center}
+span.c5 {font-size: 70%}
+span.c4 {color: #FF0000}
+span.c3 {color: #0000FF}
+p.c8 {text-align: center}
+span.c7 {color: #FF0000; font-family: FlamencoD; font-size: 70%}
+span.LinksRechtsUnten {line-height: 1.65em;}
