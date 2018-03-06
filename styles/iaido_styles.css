@@ -1,0 +1,12 @@
+
+A:link { text-decoration: none; color: #000000; }
+A:visited { text-decoration: none; color: #00AAAA; }
+A:hover { text-decoration: underline; color: #000000; }
+A:active { text-decoration: underline; color: #0000FF; }
+
+div.c6 {text-align: center}
+td.c5 {font-weight: bold;}
+span.c4 {color: #FF0000}
+span.c3 {color: #000000}
+span.c2 {font-size: 120%}
+span.c1 {font-size: 200%}

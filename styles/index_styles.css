@@ -1,0 +1,11 @@
+A:link { text-decoration: none; color: #000000; }
+A:visited { text-decoration: none; color: #00AAAA; }
+A:hover { text-decoration: underline; color: #000000; }
+A:active { text-decoration: underline; color: #0000FF; }
+
+div.c6 {text-align: center}
+span.c5 {color: #000000; font-family: Staccato555 BT}
+span.c4 {color: #0000FF}
+div.c3 {color: #0000FF; line-height: 1.65em; padding-left: 70px; text-align: left}
+span.c2 {color: #0000FF; font-size: 120%}
+span.c1 {color: #000000}

@@ -1,0 +1,13 @@
+
+A:link { text-decoration: none; color: #000000; }
+A:visited { text-decoration: none; color: #00AAAA; }
+A:hover { text-decoration: underline; color: #000000; }
+A:active { text-decoration: underline; color: #0000FF; }
+
+div.c6 {text-align: center;}
+span.c5 {color: #FF00FF; font-family: Staccato555 BT;}
+span.c4 {color: #0000FF; font-size: 120%; letter-spacing: 2pt;}
+span.c3 {color: #8000FF; font-size: 120%; letter-spacing: 2pt;}
+span.c2 {color: #0000FF; text-align: left;}
+span.Name {color: #0000FF; text-align: left; font-size: 110%; font-weight:bold;}
+h1.c1 {color: #0000A0}
